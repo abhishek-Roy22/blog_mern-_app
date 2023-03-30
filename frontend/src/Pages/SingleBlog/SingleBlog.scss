@@ -1,0 +1,59 @@
+.singleBlog {
+  max-width: 90%;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px auto;
+
+  .img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 5px solid teal;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .single_blogAuth {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .author {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #555;
+      font-family: "Unbounded", cursive;
+    }
+
+    .date {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #555;
+      font-family: "Josefin Sans", sans-serif;
+    }
+  }
+
+  h1 {
+    border-bottom: 2px solid #555;
+    padding: 10px;
+  }
+
+  span {
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+}

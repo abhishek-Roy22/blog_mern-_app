@@ -1,0 +1,55 @@
+header {
+  background-color: #fff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+
+  .navbar {
+    max-width: 90%;
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+
+    .logo h1 {
+      color: red;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: "Crimson Pro", serif;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      font-family: "Josefin Sans", sans-serif;
+
+      .user {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        background-color: tomato;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      span {
+        cursor: pointer;
+        color: #333;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
